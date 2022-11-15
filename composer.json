@@ -1,0 +1,23 @@
+{
+  "name": "aliglzr/wallet-creator",
+  "description": "A crypto currency wallet creator",
+  "autoload": {
+    "psr-4": {
+      "Aliglzr\\WalletCreator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ali Golzar",
+      "email": "agt.ali.gr@gmail.com"
+    }
+  ],
+  "require": {
+    "sop/asn1": "^3.3",
+    "sop/crypto-encoding": "^0.2.0",
+    "sop/crypto-types": "^0.2.1",
+    "kornrunner/keccak": "^1.0",
+    "symfony/dotenv": "^4.0",
+    "sc0vu/web3.php": "dev-master"
+  }
+}
